@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/rene/Desktop/KotlinCodelabs/LunchTrayApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_accompaniment_menu.xml",
+        "source": "/Users/rene/Desktop/KotlinCodelabs/LunchTrayApp/app/src/main/res/layout/fragment_accompaniment_menu.xml"
+    },
+    {
+        "merged": "/Users/rene/Desktop/KotlinCodelabs/LunchTrayApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/rene/Desktop/KotlinCodelabs/LunchTrayApp/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/rene/Desktop/KotlinCodelabs/LunchTrayApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_side_menu.xml",
+        "source": "/Users/rene/Desktop/KotlinCodelabs/LunchTrayApp/app/src/main/res/layout/fragment_side_menu.xml"
+    },
+    {
+        "merged": "/Users/rene/Desktop/KotlinCodelabs/LunchTrayApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_checkout.xml",
+        "source": "/Users/rene/Desktop/KotlinCodelabs/LunchTrayApp/app/src/main/res/layout/fragment_checkout.xml"
+    },
+    {
+        "merged": "/Users/rene/Desktop/KotlinCodelabs/LunchTrayApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_start_order.xml",
+        "source": "/Users/rene/Desktop/KotlinCodelabs/LunchTrayApp/app/src/main/res/layout/fragment_start_order.xml"
+    },
+    {
+        "merged": "/Users/rene/Desktop/KotlinCodelabs/LunchTrayApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_entree_menu.xml",
+        "source": "/Users/rene/Desktop/KotlinCodelabs/LunchTrayApp/app/src/main/res/layout/fragment_entree_menu.xml"
+    }
+]
