@@ -288,20 +288,10 @@ public class FragmentAccompanimentMenuBindingImpl extends FragmentAccompanimentM
             }
             case 2: {
                 // localize variables for thread safety
-                // viewModel.menuItems["berries"] != null
-                boolean viewModelMenuItemsBerriesJavaLangObjectNull = false;
-                // viewModel.menuItems["berries"]
-                com.example.lunchtray.model.MenuItem viewModelMenuItemsBerries = null;
-                // viewModel.menuItems != null
-                boolean viewModelMenuItemsJavaLangObjectNull = false;
-                // viewModel.menuItems["berries"].name
-                java.lang.String viewModelMenuItemsBerriesName = null;
                 // viewModel
                 com.example.lunchtray.model.OrderViewModel viewModel = mViewModel;
                 // viewModel != null
                 boolean viewModelJavaLangObjectNull = false;
-                // viewModel.menuItems
-                java.util.Map<java.lang.String,com.example.lunchtray.model.MenuItem> viewModelMenuItems = null;
 
 
 
@@ -310,25 +300,7 @@ public class FragmentAccompanimentMenuBindingImpl extends FragmentAccompanimentM
 
 
 
-
-                    viewModelMenuItems = viewModel.getMenuItems();
-
-                    viewModelMenuItemsJavaLangObjectNull = (viewModelMenuItems) != (null);
-                    if (viewModelMenuItemsJavaLangObjectNull) {
-
-
-
-                        viewModelMenuItemsBerries = viewModelMenuItems.get("berries");
-
-                        viewModelMenuItemsBerriesJavaLangObjectNull = (viewModelMenuItemsBerries) != (null);
-                        if (viewModelMenuItemsBerriesJavaLangObjectNull) {
-
-
-                            viewModelMenuItemsBerriesName = viewModelMenuItemsBerries.getName();
-
-                            viewModel.setAccompaniment(viewModelMenuItemsBerriesName);
-                        }
-                    }
+                    viewModel.setAccompaniment("berries");
                 }
                 break;
             }
@@ -351,20 +323,10 @@ public class FragmentAccompanimentMenuBindingImpl extends FragmentAccompanimentM
             }
             case 3: {
                 // localize variables for thread safety
-                // viewModel.menuItems != null
-                boolean viewModelMenuItemsJavaLangObjectNull = false;
                 // viewModel
                 com.example.lunchtray.model.OrderViewModel viewModel = mViewModel;
-                // viewModel.menuItems["pickles"].name
-                java.lang.String viewModelMenuItemsPicklesName = null;
-                // viewModel.menuItems["pickles"] != null
-                boolean viewModelMenuItemsPicklesJavaLangObjectNull = false;
                 // viewModel != null
                 boolean viewModelJavaLangObjectNull = false;
-                // viewModel.menuItems
-                java.util.Map<java.lang.String,com.example.lunchtray.model.MenuItem> viewModelMenuItems = null;
-                // viewModel.menuItems["pickles"]
-                com.example.lunchtray.model.MenuItem viewModelMenuItemsPickles = null;
 
 
 
@@ -373,44 +335,16 @@ public class FragmentAccompanimentMenuBindingImpl extends FragmentAccompanimentM
 
 
 
-
-                    viewModelMenuItems = viewModel.getMenuItems();
-
-                    viewModelMenuItemsJavaLangObjectNull = (viewModelMenuItems) != (null);
-                    if (viewModelMenuItemsJavaLangObjectNull) {
-
-
-
-                        viewModelMenuItemsPickles = viewModelMenuItems.get("pickles");
-
-                        viewModelMenuItemsPicklesJavaLangObjectNull = (viewModelMenuItemsPickles) != (null);
-                        if (viewModelMenuItemsPicklesJavaLangObjectNull) {
-
-
-                            viewModelMenuItemsPicklesName = viewModelMenuItemsPickles.getName();
-
-                            viewModel.setAccompaniment(viewModelMenuItemsPicklesName);
-                        }
-                    }
+                    viewModel.setAccompaniment("pickles");
                 }
                 break;
             }
             case 1: {
                 // localize variables for thread safety
-                // viewModel.menuItems["bread"]
-                com.example.lunchtray.model.MenuItem viewModelMenuItemsBread = null;
-                // viewModel.menuItems != null
-                boolean viewModelMenuItemsJavaLangObjectNull = false;
-                // viewModel.menuItems["bread"] != null
-                boolean viewModelMenuItemsBreadJavaLangObjectNull = false;
-                // viewModel.menuItems["bread"].name
-                java.lang.String viewModelMenuItemsBreadName = null;
                 // viewModel
                 com.example.lunchtray.model.OrderViewModel viewModel = mViewModel;
                 // viewModel != null
                 boolean viewModelJavaLangObjectNull = false;
-                // viewModel.menuItems
-                java.util.Map<java.lang.String,com.example.lunchtray.model.MenuItem> viewModelMenuItems = null;
 
 
 
@@ -419,25 +353,7 @@ public class FragmentAccompanimentMenuBindingImpl extends FragmentAccompanimentM
 
 
 
-
-                    viewModelMenuItems = viewModel.getMenuItems();
-
-                    viewModelMenuItemsJavaLangObjectNull = (viewModelMenuItems) != (null);
-                    if (viewModelMenuItemsJavaLangObjectNull) {
-
-
-
-                        viewModelMenuItemsBread = viewModelMenuItems.get("bread");
-
-                        viewModelMenuItemsBreadJavaLangObjectNull = (viewModelMenuItemsBread) != (null);
-                        if (viewModelMenuItemsBreadJavaLangObjectNull) {
-
-
-                            viewModelMenuItemsBreadName = viewModelMenuItemsBread.getName();
-
-                            viewModel.setAccompaniment(viewModelMenuItemsBreadName);
-                        }
-                    }
+                    viewModel.setAccompaniment("bread");
                 }
                 break;
             }

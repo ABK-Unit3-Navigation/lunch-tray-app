@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/rene/Desktop/KotlinCodelabs/LunchTrayApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/rene/Desktop/Codelabs/Kotlin/LunchTrayApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "/Users/rene/.gradle/caches/transforms-2/files-2.1/48a62011c4a7c08c3a91b4edbbc6d8e2/appcompat-1.2.0/res/values-night-v8/values-night-v8.xml",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/rene/Desktop/KotlinCodelabs/LunchTrayApp/app/src/main/res/values-night/themes.xml",
+                    "source": "/Users/rene/Desktop/Codelabs/Kotlin/LunchTrayApp/app/src/main/res/values-night/themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

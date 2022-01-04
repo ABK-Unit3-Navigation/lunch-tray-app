@@ -1,13 +1,13 @@
-Lunch Tray - Starter Code
+Lunch Tray - Solution Code
 ==================================
 
-Starter code for the third independent project for Android Basics in Kotlin
+My solution code for the third independent project for Android Basics in Kotlin
 
 Introduction
 ------------
 
-This is the starter code for the Lunch Tray app project. This project is an opportunity for you to
-demonstrate the concepts you learned in Unit 3 of Android Basics in Kotlin.
+This is my solution code for the Lunch Tray app project. This project is an opportunity for me to
+demonstrate the concepts I learned in Unit 3 of Android Basics in Kotlin.
 
 Pre-requisites
 --------------
@@ -25,4 +25,5 @@ Tips
 ----
 
 - Use the provided tests to ensure your app is running as expected
+- When you call the method getCurrencyFormat() pass in Locale.US as a parameter to validate the tests
 - DO NOT ALTER THE PROVIDED TESTS

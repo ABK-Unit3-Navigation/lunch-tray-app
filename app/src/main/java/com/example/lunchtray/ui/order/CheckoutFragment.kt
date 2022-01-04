@@ -21,7 +21,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import androidx.navigation.Navigation
+import androidx.navigation.fragment.findNavController
 import com.example.lunchtray.R
 import com.example.lunchtray.databinding.FragmentCheckoutBinding
 import com.example.lunchtray.model.OrderViewModel
@@ -76,8 +76,7 @@ class CheckoutFragment : Fragment() {
         // Reset order in view model
         sharedViewModel.resetOrder()
         // Navigate back to the [StartFragment] to start over
-        Navigation.findNavController(requireActivity(),
-        R.id.action_checkoutFragment_to_startOrderFragment)
+        findNavController().navigate(R.id.action_checkoutFragment_to_startOrderFragment)
     }
 
     /**
@@ -89,8 +88,7 @@ class CheckoutFragment : Fragment() {
         // Reset order in view model
         sharedViewModel.resetOrder()
         // Navigate back to the [StartFragment] to start over
-        Navigation.findNavController(requireActivity(),
-        R.id.action_checkoutFragment_to_startOrderFragment)
+        findNavController().navigate(R.id.action_checkoutFragment_to_startOrderFragment)
     }
 
     /**

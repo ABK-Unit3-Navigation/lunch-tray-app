@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/rene/Desktop/KotlinCodelabs/LunchTrayApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml",
+            "outputFile": "/Users/rene/Desktop/Codelabs/Kotlin/LunchTrayApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml",
             "map": [
                 {
                     "source": "/Users/rene/.gradle/caches/transforms-2/files-2.1/720229daa42039c343806cee0ef1e4d5/navigation-ui-2.3.5/res/values-si/values-si.xml",

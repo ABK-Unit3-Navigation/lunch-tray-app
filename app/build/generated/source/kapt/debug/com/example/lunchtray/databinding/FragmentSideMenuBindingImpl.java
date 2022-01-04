@@ -298,20 +298,10 @@ public class FragmentSideMenuBindingImpl extends FragmentSideMenuBinding impleme
         switch(sourceId) {
             case 4: {
                 // localize variables for thread safety
-                // viewModel.menuItems["rice"].name
-                java.lang.String viewModelMenuItemsRiceName = null;
-                // viewModel.menuItems != null
-                boolean viewModelMenuItemsJavaLangObjectNull = false;
                 // viewModel
                 com.example.lunchtray.model.OrderViewModel viewModel = mViewModel;
                 // viewModel != null
                 boolean viewModelJavaLangObjectNull = false;
-                // viewModel.menuItems["rice"] != null
-                boolean viewModelMenuItemsRiceJavaLangObjectNull = false;
-                // viewModel.menuItems["rice"]
-                com.example.lunchtray.model.MenuItem viewModelMenuItemsRice = null;
-                // viewModel.menuItems
-                java.util.Map<java.lang.String,com.example.lunchtray.model.MenuItem> viewModelMenuItems = null;
 
 
 
@@ -320,25 +310,7 @@ public class FragmentSideMenuBindingImpl extends FragmentSideMenuBinding impleme
 
 
 
-
-                    viewModelMenuItems = viewModel.getMenuItems();
-
-                    viewModelMenuItemsJavaLangObjectNull = (viewModelMenuItems) != (null);
-                    if (viewModelMenuItemsJavaLangObjectNull) {
-
-
-
-                        viewModelMenuItemsRice = viewModelMenuItems.get("rice");
-
-                        viewModelMenuItemsRiceJavaLangObjectNull = (viewModelMenuItemsRice) != (null);
-                        if (viewModelMenuItemsRiceJavaLangObjectNull) {
-
-
-                            viewModelMenuItemsRiceName = viewModelMenuItemsRice.getName();
-
-                            viewModel.setSide(viewModelMenuItemsRiceName);
-                        }
-                    }
+                    viewModel.setSide("rice");
                 }
                 break;
             }
@@ -361,20 +333,10 @@ public class FragmentSideMenuBindingImpl extends FragmentSideMenuBinding impleme
             }
             case 2: {
                 // localize variables for thread safety
-                // viewModel.menuItems["soup"]
-                com.example.lunchtray.model.MenuItem viewModelMenuItemsSoup = null;
-                // viewModel.menuItems["soup"] != null
-                boolean viewModelMenuItemsSoupJavaLangObjectNull = false;
-                // viewModel.menuItems["soup"].name
-                java.lang.String viewModelMenuItemsSoupName = null;
-                // viewModel.menuItems != null
-                boolean viewModelMenuItemsJavaLangObjectNull = false;
                 // viewModel
                 com.example.lunchtray.model.OrderViewModel viewModel = mViewModel;
                 // viewModel != null
                 boolean viewModelJavaLangObjectNull = false;
-                // viewModel.menuItems
-                java.util.Map<java.lang.String,com.example.lunchtray.model.MenuItem> viewModelMenuItems = null;
 
 
 
@@ -383,25 +345,7 @@ public class FragmentSideMenuBindingImpl extends FragmentSideMenuBinding impleme
 
 
 
-
-                    viewModelMenuItems = viewModel.getMenuItems();
-
-                    viewModelMenuItemsJavaLangObjectNull = (viewModelMenuItems) != (null);
-                    if (viewModelMenuItemsJavaLangObjectNull) {
-
-
-
-                        viewModelMenuItemsSoup = viewModelMenuItems.get("soup");
-
-                        viewModelMenuItemsSoupJavaLangObjectNull = (viewModelMenuItemsSoup) != (null);
-                        if (viewModelMenuItemsSoupJavaLangObjectNull) {
-
-
-                            viewModelMenuItemsSoupName = viewModelMenuItemsSoup.getName();
-
-                            viewModel.setSide(viewModelMenuItemsSoupName);
-                        }
-                    }
+                    viewModel.setSide("soup");
                 }
                 break;
             }
@@ -424,20 +368,10 @@ public class FragmentSideMenuBindingImpl extends FragmentSideMenuBinding impleme
             }
             case 1: {
                 // localize variables for thread safety
-                // viewModel.menuItems["salad"] != null
-                boolean viewModelMenuItemsSaladJavaLangObjectNull = false;
-                // viewModel.menuItems["salad"].name
-                java.lang.String viewModelMenuItemsSaladName = null;
-                // viewModel.menuItems != null
-                boolean viewModelMenuItemsJavaLangObjectNull = false;
-                // viewModel.menuItems["salad"]
-                com.example.lunchtray.model.MenuItem viewModelMenuItemsSalad = null;
                 // viewModel
                 com.example.lunchtray.model.OrderViewModel viewModel = mViewModel;
                 // viewModel != null
                 boolean viewModelJavaLangObjectNull = false;
-                // viewModel.menuItems
-                java.util.Map<java.lang.String,com.example.lunchtray.model.MenuItem> viewModelMenuItems = null;
 
 
 
@@ -446,44 +380,16 @@ public class FragmentSideMenuBindingImpl extends FragmentSideMenuBinding impleme
 
 
 
-
-                    viewModelMenuItems = viewModel.getMenuItems();
-
-                    viewModelMenuItemsJavaLangObjectNull = (viewModelMenuItems) != (null);
-                    if (viewModelMenuItemsJavaLangObjectNull) {
-
-
-
-                        viewModelMenuItemsSalad = viewModelMenuItems.get("salad");
-
-                        viewModelMenuItemsSaladJavaLangObjectNull = (viewModelMenuItemsSalad) != (null);
-                        if (viewModelMenuItemsSaladJavaLangObjectNull) {
-
-
-                            viewModelMenuItemsSaladName = viewModelMenuItemsSalad.getName();
-
-                            viewModel.setSide(viewModelMenuItemsSaladName);
-                        }
-                    }
+                    viewModel.setSide("salad");
                 }
                 break;
             }
             case 3: {
                 // localize variables for thread safety
-                // viewModel.menuItems["potatoes"].name
-                java.lang.String viewModelMenuItemsPotatoesName = null;
-                // viewModel.menuItems["potatoes"] != null
-                boolean viewModelMenuItemsPotatoesJavaLangObjectNull = false;
-                // viewModel.menuItems != null
-                boolean viewModelMenuItemsJavaLangObjectNull = false;
-                // viewModel.menuItems["potatoes"]
-                com.example.lunchtray.model.MenuItem viewModelMenuItemsPotatoes = null;
                 // viewModel
                 com.example.lunchtray.model.OrderViewModel viewModel = mViewModel;
                 // viewModel != null
                 boolean viewModelJavaLangObjectNull = false;
-                // viewModel.menuItems
-                java.util.Map<java.lang.String,com.example.lunchtray.model.MenuItem> viewModelMenuItems = null;
 
 
 
@@ -492,25 +398,7 @@ public class FragmentSideMenuBindingImpl extends FragmentSideMenuBinding impleme
 
 
 
-
-                    viewModelMenuItems = viewModel.getMenuItems();
-
-                    viewModelMenuItemsJavaLangObjectNull = (viewModelMenuItems) != (null);
-                    if (viewModelMenuItemsJavaLangObjectNull) {
-
-
-
-                        viewModelMenuItemsPotatoes = viewModelMenuItems.get("potatoes");
-
-                        viewModelMenuItemsPotatoesJavaLangObjectNull = (viewModelMenuItemsPotatoes) != (null);
-                        if (viewModelMenuItemsPotatoesJavaLangObjectNull) {
-
-
-                            viewModelMenuItemsPotatoesName = viewModelMenuItemsPotatoes.getName();
-
-                            viewModel.setSide(viewModelMenuItemsPotatoesName);
-                        }
-                    }
+                    viewModel.setSide("potatoes");
                 }
                 break;
             }

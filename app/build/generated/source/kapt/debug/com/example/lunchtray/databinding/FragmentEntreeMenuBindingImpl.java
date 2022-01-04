@@ -298,20 +298,10 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
         switch(sourceId) {
             case 2: {
                 // localize variables for thread safety
-                // viewModel.menuItems["chili"]
-                com.example.lunchtray.model.MenuItem viewModelMenuItemsChili = null;
-                // viewModel.menuItems != null
-                boolean viewModelMenuItemsJavaLangObjectNull = false;
-                // viewModel.menuItems["chili"].name
-                java.lang.String viewModelMenuItemsChiliName = null;
                 // viewModel
                 com.example.lunchtray.model.OrderViewModel viewModel = mViewModel;
                 // viewModel != null
                 boolean viewModelJavaLangObjectNull = false;
-                // viewModel.menuItems
-                java.util.Map<java.lang.String,com.example.lunchtray.model.MenuItem> viewModelMenuItems = null;
-                // viewModel.menuItems["chili"] != null
-                boolean viewModelMenuItemsChiliJavaLangObjectNull = false;
 
 
 
@@ -320,25 +310,7 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
 
 
 
-
-                    viewModelMenuItems = viewModel.getMenuItems();
-
-                    viewModelMenuItemsJavaLangObjectNull = (viewModelMenuItems) != (null);
-                    if (viewModelMenuItemsJavaLangObjectNull) {
-
-
-
-                        viewModelMenuItemsChili = viewModelMenuItems.get("chili");
-
-                        viewModelMenuItemsChiliJavaLangObjectNull = (viewModelMenuItemsChili) != (null);
-                        if (viewModelMenuItemsChiliJavaLangObjectNull) {
-
-
-                            viewModelMenuItemsChiliName = viewModelMenuItemsChili.getName();
-
-                            viewModel.setEntree(viewModelMenuItemsChiliName);
-                        }
-                    }
+                    viewModel.setEntree("chili");
                 }
                 break;
             }
@@ -361,20 +333,10 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
             }
             case 3: {
                 // localize variables for thread safety
-                // viewModel.menuItems["pasta"].name
-                java.lang.String viewModelMenuItemsPastaName = null;
-                // viewModel.menuItems != null
-                boolean viewModelMenuItemsJavaLangObjectNull = false;
-                // viewModel.menuItems["pasta"]
-                com.example.lunchtray.model.MenuItem viewModelMenuItemsPasta = null;
-                // viewModel.menuItems["pasta"] != null
-                boolean viewModelMenuItemsPastaJavaLangObjectNull = false;
                 // viewModel
                 com.example.lunchtray.model.OrderViewModel viewModel = mViewModel;
                 // viewModel != null
                 boolean viewModelJavaLangObjectNull = false;
-                // viewModel.menuItems
-                java.util.Map<java.lang.String,com.example.lunchtray.model.MenuItem> viewModelMenuItems = null;
 
 
 
@@ -383,44 +345,16 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
 
 
 
-
-                    viewModelMenuItems = viewModel.getMenuItems();
-
-                    viewModelMenuItemsJavaLangObjectNull = (viewModelMenuItems) != (null);
-                    if (viewModelMenuItemsJavaLangObjectNull) {
-
-
-
-                        viewModelMenuItemsPasta = viewModelMenuItems.get("pasta");
-
-                        viewModelMenuItemsPastaJavaLangObjectNull = (viewModelMenuItemsPasta) != (null);
-                        if (viewModelMenuItemsPastaJavaLangObjectNull) {
-
-
-                            viewModelMenuItemsPastaName = viewModelMenuItemsPasta.getName();
-
-                            viewModel.setEntree(viewModelMenuItemsPastaName);
-                        }
-                    }
+                    viewModel.setEntree("pasta");
                 }
                 break;
             }
             case 4: {
                 // localize variables for thread safety
-                // viewModel.menuItems != null
-                boolean viewModelMenuItemsJavaLangObjectNull = false;
-                // viewModel.menuItems["skillet"] != null
-                boolean viewModelMenuItemsSkilletJavaLangObjectNull = false;
-                // viewModel.menuItems["skillet"].name
-                java.lang.String viewModelMenuItemsSkilletName = null;
                 // viewModel
                 com.example.lunchtray.model.OrderViewModel viewModel = mViewModel;
                 // viewModel != null
                 boolean viewModelJavaLangObjectNull = false;
-                // viewModel.menuItems["skillet"]
-                com.example.lunchtray.model.MenuItem viewModelMenuItemsSkillet = null;
-                // viewModel.menuItems
-                java.util.Map<java.lang.String,com.example.lunchtray.model.MenuItem> viewModelMenuItems = null;
 
 
 
@@ -429,44 +363,16 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
 
 
 
-
-                    viewModelMenuItems = viewModel.getMenuItems();
-
-                    viewModelMenuItemsJavaLangObjectNull = (viewModelMenuItems) != (null);
-                    if (viewModelMenuItemsJavaLangObjectNull) {
-
-
-
-                        viewModelMenuItemsSkillet = viewModelMenuItems.get("skillet");
-
-                        viewModelMenuItemsSkilletJavaLangObjectNull = (viewModelMenuItemsSkillet) != (null);
-                        if (viewModelMenuItemsSkilletJavaLangObjectNull) {
-
-
-                            viewModelMenuItemsSkilletName = viewModelMenuItemsSkillet.getName();
-
-                            viewModel.setEntree(viewModelMenuItemsSkilletName);
-                        }
-                    }
+                    viewModel.setEntree("skillet");
                 }
                 break;
             }
             case 1: {
                 // localize variables for thread safety
-                // viewModel.menuItems["cauliflower"] != null
-                boolean viewModelMenuItemsCauliflowerJavaLangObjectNull = false;
-                // viewModel.menuItems["cauliflower"].name
-                java.lang.String viewModelMenuItemsCauliflowerName = null;
-                // viewModel.menuItems != null
-                boolean viewModelMenuItemsJavaLangObjectNull = false;
                 // viewModel
                 com.example.lunchtray.model.OrderViewModel viewModel = mViewModel;
-                // viewModel.menuItems["cauliflower"]
-                com.example.lunchtray.model.MenuItem viewModelMenuItemsCauliflower = null;
                 // viewModel != null
                 boolean viewModelJavaLangObjectNull = false;
-                // viewModel.menuItems
-                java.util.Map<java.lang.String,com.example.lunchtray.model.MenuItem> viewModelMenuItems = null;
 
 
 
@@ -475,25 +381,7 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
 
 
 
-
-                    viewModelMenuItems = viewModel.getMenuItems();
-
-                    viewModelMenuItemsJavaLangObjectNull = (viewModelMenuItems) != (null);
-                    if (viewModelMenuItemsJavaLangObjectNull) {
-
-
-
-                        viewModelMenuItemsCauliflower = viewModelMenuItems.get("cauliflower");
-
-                        viewModelMenuItemsCauliflowerJavaLangObjectNull = (viewModelMenuItemsCauliflower) != (null);
-                        if (viewModelMenuItemsCauliflowerJavaLangObjectNull) {
-
-
-                            viewModelMenuItemsCauliflowerName = viewModelMenuItemsCauliflower.getName();
-
-                            viewModel.setEntree(viewModelMenuItemsCauliflowerName);
-                        }
-                    }
+                    viewModel.setEntree("cauliflower");
                 }
                 break;
             }

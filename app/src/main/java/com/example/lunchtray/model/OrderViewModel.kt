@@ -21,7 +21,6 @@ import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
 import com.example.lunchtray.data.DataSource
 import java.text.NumberFormat
-import java.util.*
 
 class OrderViewModel : ViewModel() {
 
@@ -51,19 +50,19 @@ class OrderViewModel : ViewModel() {
     // Subtotal for the order
     private val _subtotal = MutableLiveData(0.0)
     val subtotal: LiveData<String> = Transformations.map(_subtotal) {
-        NumberFormat.getCurrencyInstance(Locale.US).format(it)
+        NumberFormat.getCurrencyInstance().format(it)
     }
 
     // Total cost of the order
     private val _total = MutableLiveData(0.0)
     val total: LiveData<String> = Transformations.map(_total) {
-        NumberFormat.getCurrencyInstance(Locale.US).format(it)
+        NumberFormat.getCurrencyInstance().format(it)
     }
 
     // Tax for the order
     private val _tax = MutableLiveData(0.0)
     val tax: LiveData<String> = Transformations.map(_tax) {
-        NumberFormat.getCurrencyInstance(Locale.US).format(it)
+        NumberFormat.getCurrencyInstance().format(it)
     }
 
     /**
@@ -79,12 +78,12 @@ class OrderViewModel : ViewModel() {
         // If _subtotal.value is not null subtract the previous entree price from the current
         //  subtotal value. This ensures that we only charge for the currently selected entree.
         if (_subtotal.value != null) {
-            _subtotal.postValue(_subtotal.value!! - previousEntreePrice)
+            _subtotal.value = _subtotal.value!! - previousEntreePrice
         }
 
         // Set the current entree value to the menu item corresponding to the passed in string
         // Update the subtotal to reflect the price of the selected entree.
-        _entree.postValue(menuItems[entree])
+        _entree.value = menuItems[entree]
         updateSubtotal(_entree.value?.price!!)
     }
 
@@ -99,12 +98,12 @@ class OrderViewModel : ViewModel() {
         // If _subtotal.value is not null subtract the previous side price from the current
         //  subtotal value. This ensures that we only charge for the currently selected side.
         if (_subtotal.value != null) {
-            _subtotal.postValue(_subtotal.value!! - previousSidePrice)
+            _subtotal.value = _subtotal.value!! - previousSidePrice
         }
 
         // Set the current side value to the menu item corresponding to the passed in string
         // Update the subtotal to reflect the price of the selected side.
-        _side.postValue(menuItems[side])
+        _side.value = menuItems[side]
         updateSubtotal(_side.value?.price!!)
     }
 
@@ -122,13 +121,13 @@ class OrderViewModel : ViewModel() {
         //  the current subtotal value. This ensures that we only charge for the currently selected
         //  accompaniment.
         if (_subtotal.value != null) {
-            _subtotal.postValue(_subtotal.value!! - previousAccompanimentPrice)
+            _subtotal.value = _subtotal.value!! - previousAccompanimentPrice
         }
 
         // Set the current accompaniment value to the menu item corresponding to the passed in
         //  string
         // Update the subtotal to reflect the price of the selected accompaniment.
-        _accompaniment.postValue(menuItems[accompaniment])
+        _accompaniment.value = menuItems[accompaniment]
         updateSubtotal(_accompaniment.value?.price!!)
     }
 
@@ -140,7 +139,7 @@ class OrderViewModel : ViewModel() {
         //  added item.
         //  Otherwise, set _subtotal.value to equal the price of the item.
         if (_subtotal.value != null) {
-            _subtotal.postValue(itemPrice)
+            _subtotal.value = _subtotal.value!! + itemPrice
         } else {
             _subtotal.value = itemPrice
         }
